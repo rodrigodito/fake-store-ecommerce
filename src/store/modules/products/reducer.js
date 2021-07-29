@@ -2,14 +2,22 @@ import * as types from '../types';
 
 const initialState = {
   allProducts: [],
-  productsFiltered: []
+  productsFiltered: [],
+  loading: false
 };
 
 function reducer(state = initialState, action) {
   switch (action.type) {
+    case types.GET_PRODUCTS_REQUEST: {
+      let newState = { ...state };
+      newState.loading = true
+      return newState;
+    }
+    
     case types.GET_PRODUCTS_SUCCESS: {
       let newState = { ...state };
       newState.allProducts = action.payload
+      newState.loading = false
       return newState;
     }
 

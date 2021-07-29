@@ -3,7 +3,6 @@ import Infos from './Infos';
 import Menu from './Menu';
 import Search from './Search';
 
-import { Typography } from '../Typography/style';
 import { 
   Header as HeaderBox, 
   HeaderContainer, 

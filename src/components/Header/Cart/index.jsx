@@ -8,7 +8,7 @@ import Resume from './Resume';
 import { BoxInfo } from '../Infos/style';
 import { BoxCart, ButtonCart, QuantityCart } from './style';
 import { Typography } from '../../Typography/style';
-import { ButtonDefault } from '../../../GlobalStyle';
+import { ButtonDefault } from '../../../assets/styles/GlobalStyle';
 
 import CartIcon from '../../../assets/images/icons/shopping_cart.svg';
 

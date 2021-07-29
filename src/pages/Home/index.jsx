@@ -6,7 +6,7 @@ import Loading from '../../components/Loading';
 
 import * as getProductsActions from '../../store/modules/products/actions';
 
-import { Container } from '../../GlobalStyle';
+import { Container } from '../../assets/styles/GlobalStyle';
 
 function Home() {
   const dispatch = useDispatch();

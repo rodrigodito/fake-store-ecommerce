@@ -12,7 +12,7 @@ import {
   CardCountItem,
   CardActions
 } from '../Card/style';
-import { ButtonDefault } from '../../../GlobalStyle';
+import { ButtonDefault } from '../../../assets/styles/GlobalStyle';
 
 function ProductActions({product}) {
   const [quantity, setQuantity] = useState(1);

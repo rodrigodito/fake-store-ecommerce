@@ -5,7 +5,7 @@ import { cleanCart } from '../../store/modules/cart/actions';
 import CheckoutInfos from '../../components/Checkout/Infos';
 import CheckoutProducts from '../../components/Checkout/Products';
 
-import { ButtonDefault, ContainerWhite, SectionTitle } from '../../GlobalStyle';
+import { ButtonDefault, ContainerWhite, SectionTitle } from '../../assets/styles/GlobalStyle';
 import { CheckoutMainInfos } from './style';
 
 function Checkout() {

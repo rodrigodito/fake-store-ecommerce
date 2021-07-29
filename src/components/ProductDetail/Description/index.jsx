@@ -1,4 +1,4 @@
-import { SectionTitle } from '../../../GlobalStyle';
+import { SectionTitle } from '../../../assets/styles/GlobalStyle';
 import { ProductDescription } from './style';
 
 function Description({product}) {

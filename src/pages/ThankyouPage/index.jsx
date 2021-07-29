@@ -1,4 +1,4 @@
-import { ContainerWhite, SectionTitle } from "../../GlobalStyle";
+import { ContainerWhite, SectionTitle } from "../../assets/styles/GlobalStyle";
 
 function ThankyouPage(){
   return(

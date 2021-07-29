@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Container } from '../../GlobalStyle';
+import { Container } from '../../assets/styles/GlobalStyle';
 import { fontSecondary, colorPrimary } from '../../assets/styles/variables';
 
 export const Header = styled.div`

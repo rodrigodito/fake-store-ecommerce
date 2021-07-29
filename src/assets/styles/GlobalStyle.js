@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import { fontPrimary, fontSecondary, bgColor, colorPrimary } from './assets/styles/variables';
+import { fontPrimary, fontSecondary, bgColor, colorPrimary } from './variables';
 
 export const GlobalStyle = createGlobalStyle`
   *,

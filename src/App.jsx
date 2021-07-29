@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Routes from './Routes';
 import store, { persistor } from './store';
 
-import { GlobalStyle } from './GlobalStyle';
+import { GlobalStyle } from './assets/styles/GlobalStyle';
 
 function App() {
   return (

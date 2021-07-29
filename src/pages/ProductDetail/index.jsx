@@ -6,7 +6,7 @@ import ProductActions from "../../components/Showcase/ProductActions";
 import Loading from '../../components/Loading';
 import api from '../../services/api';
 
-import {ContainerWhite} from '../../GlobalStyle';
+import {ContainerWhite} from '../../assets/styles/GlobalStyle';
 import { ProductTitle, ProductMainInfo } from './style';
 
 function ProductDetail(props) {
